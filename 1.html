@@ -17,7 +17,11 @@
       <!-- マーカーを登録（プリセットされている「hiro」マーカー） -->
       <a-marker preset="hiro">
         <!-- マーカーの場所に箱を置く（見やすいようにワイヤーフレーム表示） -->
-        <a-box position="0 0.5 0" wireframe="true"></a-box>
+        <a-entity
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+        ></a-entity>
         <a-text value="　拡張現実" position=" 0 0 1" align="center" rotation="-90 0 0" color="#DD4827">
       </a-marker>
 
